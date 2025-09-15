@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2550" height="3300" viewBox="0 0 2550 3300">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2B67F6" />
+      <stop offset="100%" stop-color="#19B36B" />
+    </linearGradient>
+    <style>
+      .h1 { font-family: 'Playfair Display', serif; font-size: 160px; font-weight: 700; fill: #0b1a33; }
+      .p { font-family: 'Inter', sans-serif; font-size: 44px; fill: #1F2937; }
+    </style>
+  </defs>
+  <rect width="2550" height="3300" fill="#F7F7FB" />
+  <rect x="0" y="0" width="2550" height="480" fill="url(#g)" opacity="0.2"/>
+  <text class="h1" x="150" y="420">Bridge the Divide</text>
+  <text class="p" x="150" y="650">Host 10–50 people for 90 minutes. Curiosity over contempt. No whataboutism. No dehumanization.</text>
+  <text class="p" x="150" y="740">Scan the QR to sign the Unity Pledge and get the kit.</text>
+  <!-- Placeholder QR box -->
+  <rect x="1950" y="540" width="450" height="450" fill="#fff" stroke="#1F2937" stroke-width="8"/>
+</svg>

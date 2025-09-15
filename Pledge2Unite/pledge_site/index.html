@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Unity Pledge | #EndTheCycle</title>
+<link rel="stylesheet" href="styles.css" />
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+</script>
+</head>
+<body>
+<header class="site-header">
+  <h1 aria-label="Unity Pledge">Unity Pledge</h1>
+  <p class="tagline">Small steps. Big repair. Join 100,000+ committed to non-violence, dignity, and dialogue.</p>
+</header>
+
+<main>
+  <section class="counter-card" aria-live="polite">
+    <div class="count">
+      <span id="signatureCount">75,432</span>
+      <span class="label">signatures</span>
+    </div>
+    <progress id="progress" value="75432" max="100000" aria-label="Progress to 100,000 signatures"></progress>
+    <p class="microcopy">Help us reach 100,000 signatures. Your name = one more conversation toward unity.</p>
+  </section>
+
+  <section class="pledge-card">
+    <h2>Make the Pledge</h2>
+    <form id="pledgeForm" aria-describedby="pledgeDesc">
+      <p id="pledgeDesc" class="sr-only">
+        Pledge to reject political violence, humanize opponents, and initiate one cross-partisan conversation.
+      </p>
+
+      <label>First name<input name="firstName" required /></label>
+      <label>Email<input name="email" type="email" required /></label>
+      <label class="checkbox">
+        <input type="checkbox" name="agree" required />
+        I pledge to reject all political violence, seek truth with humility, and hold one cross-partisan conversation this month.
+      </label>
+
+      <button type="submit" class="cta">Sign the Unity Pledge</button>
+      <p class="legal">We will never sell your data. Opt-in below for a Braver Angels pairing.</p>
+
+      <label class="checkbox">
+        <input type="checkbox" name="ba_optin" />
+        Pair me for a Braver Angels workshop or 1:1 conversation.
+      </label>
+    </form>
+
+    <div class="share">
+      <button id="shareX" aria-label="Share on X">Share</button>
+      <button id="copyLink" aria-label="Copy pledge link">Copy Link</button>
+      <p class="footnote">Alt text for share image: “Two hands reaching across a gap with the words ‘Unity Pledge’.”</p>
+    </div>
+  </section>
+
+  <section class="why-card">
+    <h3>Why it matters</h3>
+    <ul>
+      <li>We condemn all political violence—without exception.</li>
+      <li>We humanize people before positions. Curiosity over contempt.</li>
+      <li>We start local: one honest conversation beats a hundred hot takes.</li>
+    </ul>
+  </section>
+
+  <section class="partners">
+    <h3>In partnership</h3>
+    <p>Interested in a skills workshop? We’ll introduce you to <strong>Braver Angels</strong> for structured dialogue.</p>
+    <a href="#" class="btn-outline" aria-label="Learn about Braver Angels pairing">Learn more</a>
+  </section>
+</main>
+
+<footer>
+  <nav class="footer-nav">
+    <a href="#privacy">Privacy</a> • <a href="#accessibility">Accessibility</a> • <a href="#contact">Contact</a>
+  </nav>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

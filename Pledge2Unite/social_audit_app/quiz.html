@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Social Media Audit | #EndTheCycle</title>
+<link rel="stylesheet" href="../pledge_site/styles.css" />
+</head>
+<body>
+<main class="pledge-card">
+  <h1>Social Media Audit</h1>
+  <p>10 quick questions. Learn how HPI biases sneak into your feed—and how to counter them.</p>
+
+  <form id="quizForm">
+    <fieldset>
+      <legend>Affective Polarization</legend>
+      <label>1) I feel uneasy when I see “the other side” celebrate a win.
+        <select name="q1"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+      <label>2) I’m more likely to share stories that make my side look good.
+        <select name="q2"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Negative Partisanship</legend>
+      <label>3) I often frame issues as “us vs. them.”
+        <select name="q3"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+      <label>4) I rarely assume good faith from opponents.
+        <select name="q4"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Social Sorting</legend>
+      <label>5) My feed mostly features people like me (beliefs, identity, region).
+        <select name="q5"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+      <label>6) I follow few credible voices from the other side.
+        <select name="q6"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Cognitive Bias</legend>
+      <label>7) I click before reading the full article.
+        <select name="q7"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+      <label>8) I assume one bad actor represents the whole group.
+        <select name="q8"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Non-Violence Norms</legend>
+      <label>9) I’ve condemned political violence even when my side was hurt.
+        <select name="q9"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+      <label>10) I avoid posts that dehumanize individuals or groups.
+        <select name="q10"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+      </label>
+    </fieldset>
+
+    <button class="cta" type="submit">Get My Tips</button>
+  </form>
+
+  <section id="results" hidden>
+    <h2>Your Results</h2>
+    <p id="scoreLine"></p>
+    <div id="tips"></div>
+    <div class="share">
+      <button id="pledgeCta" class="cta">Take the Unity Pledge</button>
+      <button id="baCta" class="btn-outline">Braver Angels Pairing</button>
+    </div>
+  </section>
+</main>
+
+<script src="quiz.js"></script>
+</body>
+</html>

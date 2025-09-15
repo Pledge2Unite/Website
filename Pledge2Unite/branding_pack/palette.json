@@ -1,0 +1,22 @@
+{
+  "primary": {
+    "name": "Unity Blue",
+    "hex": "#2B67F6"
+  },
+  "secondary": {
+    "name": "Bridge Green",
+    "hex": "#19B36B"
+  },
+  "ink": {
+    "name": "Slate Ink",
+    "hex": "#1F2937"
+  },
+  "muted": {
+    "name": "Calm Gray",
+    "hex": "#6B7280"
+  },
+  "bg": {
+    "name": "Soft Parchment",
+    "hex": "#F7F7FB"
+  }
+}

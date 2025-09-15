@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <style>
+      .w1 { fill: #2B67F6; font-family: 'Inter', Arial, sans-serif; font-weight: 800; font-size: 120px; }
+      .w2 { fill: #19B36B; font-family: 'Inter', Arial, sans-serif; font-weight: 600; font-size: 42px; }
+    </style>
+  </defs>
+  <rect width="1200" height="300" fill="#F7F7FB" />
+  <text class="w1" x="60" y="160">UNITY PLEDGE</text>
+  <text class="w2" x="64" y="220">End The Cycle · Kirk Unity Moment</text>
+</svg>

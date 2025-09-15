@@ -1,0 +1,32 @@
+{
+  "affective": [
+    {
+      "pattern": "Celebrating an opponent’s harm",
+      "nudge": "Replace with empathy statement + condemn violence."
+    }
+  ],
+  "negative": [
+    {
+      "pattern": "Group-blame headlines",
+      "nudge": "Add 'some' or cite data; avoid totalizing language."
+    }
+  ],
+  "sorting": [
+    {
+      "pattern": "Only in-group follows",
+      "nudge": "Add 3 cross-partisan, credible sources today."
+    }
+  ],
+  "cognitive": [
+    {
+      "pattern": "Share without reading",
+      "nudge": "30-second read rule, then decide."
+    }
+  ],
+  "nonviolence": [
+    {
+      "pattern": "Retaliatory dehumanization",
+      "nudge": "Use a templated, calm condemnation of violence."
+    }
+  ]
+}
